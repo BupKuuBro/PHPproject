@@ -9,7 +9,7 @@ $count = count($row);
 <head>
     <meta charset = 'utf-8'>
     <title>게시판 검색결과</title>
-    <link rel="stylesheet" href="/Normal/Index/Boardliststyle.css">
+    <link rel="stylesheet" href="/Normal_user/CSS/PostListStyle.css">
 </head>
 <body>
     <?php

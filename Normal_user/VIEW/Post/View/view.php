@@ -11,7 +11,7 @@ $result = USERCHECK($row["USER"]);
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="/Normal/Board/View/viewstyle.css">
+        <link rel="stylesheet" href="/Normal_user/CSS/PostViewStyle.css">
         <title><?php print($row["NAME"]); ?></title>
 
         <!-- 삭제 스크립트 부분 -->

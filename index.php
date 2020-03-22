@@ -1,6 +1,6 @@
 <?php
 require_once($_SERVER["DOCUMENT_ROOT"]."/Normal_user/DAO/functionDAO.php");
-SESSON_REDIRECTING("/Normal_user/VIEW/Board/SelectBoard.php");
+SESSON_REDIRECTING("Location:/Normal_user/VIEW/Board/Selectboard.php");
 ?>
 <!DOCTYPE html>
 <head>

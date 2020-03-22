@@ -35,7 +35,7 @@ $checking = $check->PASSWDCHECK($_POST["PASSWORD"]);
             ?>
             <div class="box">
                 <h1>비밀번호가 일치하지 않습니다.</h1>
-                <a href="/index.php">초기화면으로 돌아가기</a>
+                <a href="/index.html">초기화면으로 돌아가기</a>
             </div>
             <?php
         }

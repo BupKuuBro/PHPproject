@@ -38,7 +38,7 @@ function USERCHECK($ID){
 function SESSON_REDIRECTING($rink){
     session_start();
     if(isset($_SESSION["ID"])){
-        header("location:$rink");
+        header($rink);
     }
 }
 
