@@ -10,7 +10,7 @@ admin id : admin
 admin password : adminpower
 
 
-Password is encrypted and cannot be viewed database
+Password is encrypted and cannot be viewed password coluum
 
 this page copyright by jeong.pil.ho
 contect by xhfleodhkd@naver.com to xhfleodhkd20@gmail.com
