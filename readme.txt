@@ -17,3 +17,5 @@ contect by xhfleodhkd@naver.com to xhfleodhkd20@gmail.com
 phone : +82-4533-7891
 
 this homepage source is Beta version unstable
+Project production period: 1 week
+(Including existing code modification period)
