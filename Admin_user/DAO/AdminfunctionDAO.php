@@ -2,8 +2,8 @@
 //세션 권한 검사
 function ADMINPERMISSION(){
     session_start();
-    if($_SESSION["ID"] != "admin" && !isset($_SESSION["ID"])){
-        header("/error.html");
+    if($_SESSION["ID"] != "admin" || !isset($_SESSION["ID"])){
+        header("Location:/error.html");
     }
 }
 
@@ -11,7 +11,7 @@ function ADMINPERMISSION(){
 function ADMINREDIRECTING(){
     session_start();
     if($_SESSION["ID"] == "admin"){
-        header("/Admin_user/VIEW/Index/Index_Board.php");
+        header("Location:/Admin_user/VIEW/Index/Index_Board.php");
     }
 }
 ?>
